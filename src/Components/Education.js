@@ -5,31 +5,7 @@ export class Education extends Component {
   render() {
     return (
       <div className="w3-display-container w3-white">
-        <div className="w3-third w3-display-container w3-padding">
-            <img className="w3-hover-opacity KeyboardLogo" src={require('./SRMUniversity.jpg')} alt="SRM" />
-            <div className="w3-container w3-padding">
-                <div className="w3-title w3-display-bottom w3-xxlarge">
-                    2011-2015
-                </div>
-                <div className="w3-title w3-right w3-large">SRM University</div>
-            </div>
-        </div>
-        <div className="w3-thothird w3-padding">
-            <div className="w3-xlarge w3-padding">
-                Bachelor's Degree in Information Technology
-            </div>
-            <div>
-                Learning has always been my interest. But this is the place that my interest turned 
-                towards coding and found passion in doing it. Various courses that I had taken have helped 
-                me lean many new things. Courses like Cryptography zealed my interest in understanding 
-                logics and findings ways of solving problems. The best things I learned was to understand things 
-                quickly. I was exposed to different tasks which helped me in moulding for a fast paced 
-                environment. I leaned many things and have been trying to make myslef even better. Everyday is a 
-                new challenge and a new day to lean things. <br/><p className="w3-panel w3-sand w3-large w3-round w3-center w3-serif"><i>
-                I adore the quote "You're given only a litte spark of madness. You mustn't lose it." - Robin Williams.</i>
-                </p>
-            </div>
-        </div>
+
         <div className="w3-padding">
             <div className="w3-third w3-display-container">
             <img className="w3-hover-opacity KeyboardLogo" src={require('./uncc.jpg')} alt="SRM" />
@@ -58,6 +34,33 @@ export class Education extends Component {
                 </div>
             </div>
         </div>
+
+        <div className="w3-third w3-display-container w3-padding">
+            <img className="w3-hover-opacity KeyboardLogo" src={require('./SRMUniversity.jpg')} alt="SRM" />
+            <div className="w3-container w3-padding">
+                <div className="w3-title w3-display-bottom w3-xxlarge">
+                    2011-2015
+                </div>
+                <div className="w3-title w3-right w3-large">SRM University</div>
+            </div>
+        </div>
+        <div className="w3-thothird w3-padding">
+            <div className="w3-xlarge w3-padding">
+                Bachelor's Degree in Information Technology
+            </div>
+            <div>
+                Learning has always been my interest. But this is the place that my interest turned 
+                towards coding and found passion in doing it. Various courses that I had taken have helped 
+                me lean many new things. Courses like Cryptography zealed my interest in understanding 
+                logics and findings ways of solving problems. The best things I learned was to understand things 
+                quickly. I was exposed to different tasks which helped me in moulding for a fast paced 
+                environment. I leaned many things and have been trying to make myslef even better. Everyday is a 
+                new challenge and a new day to lean things. <br/><p className="w3-panel w3-sand w3-large w3-round w3-center w3-serif"><i>
+                I adore the quote "You're given only a litte spark of madness. You mustn't lose it." - Robin Williams.</i>
+                </p>
+            </div>
+        </div>
+        
       </div>
     );
   }

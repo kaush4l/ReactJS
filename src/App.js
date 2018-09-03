@@ -33,7 +33,6 @@ class App extends Component {
     return (
       <div className="w3-light-grey">
         <div className="Header"><Header /></div>
-        <div className="w3-padding w3-margin"/>
         <div className="w3-row">
           <div className="Menu w3-padding w3-quarter">
             {this.renderMenuItems(0)}
