@@ -3,6 +3,7 @@ import { Menu } from './Components/Menu';
 import { Header } from './Components/Header';
 import { Dashboard } from './Components/Dashboard';
 import { ComponentController } from './Components/ComponentController';
+import { Footer } from './Components/Footer';
 import './App.css';
 
 class App extends Component {
@@ -45,6 +46,7 @@ class App extends Component {
             <ComponentController value={this.state.clicked} />
           </div>
         </div>
+        <Footer />
       </div>
     );
   }
