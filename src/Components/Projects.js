@@ -31,7 +31,7 @@ export class Projects extends Component {
               <div className="w3-title w3-right w3-large">Indigo Application</div>
               </div>
             <div className="w3-rest">
-              <div className="w3-xxlarge">Android developer</div>
+              <div className="w3-xxlarge">Lead developer</div>
               <div className="w3-serif w3-large">
                 <i>Started a full stack application using Spring Boot, ReactJS, MongoDB, Axios, and REST Services.
                 The application is a basic application which takes date from REST services and stores them in the 
@@ -51,7 +51,7 @@ export class Projects extends Component {
               <div className="w3-title w3-right w3-large">Angular 4</div>
               </div>
             <div className="w3-rest">
-              <div className="w3-xxlarge">Android developer</div>
+              <div className="w3-xxlarge">Developer</div>
               <div className="w3-serif w3-large">
                 <i>Created a basic resume wesite using Angular 4. This was created to keep ahead 
                 with the latest technology and learn about features of the new framework. 
@@ -110,7 +110,7 @@ export class Projects extends Component {
               <div className="w3-title w3-right w3-large">Movie Recommender</div>
               </div>
             <div className="w3-rest">
-              <div className="w3-xxlarge">Android developer</div>
+              <div className="w3-xxlarge">Hadoop developer</div>
               <div className="w3-serif w3-large">
                 <i>A movie recommender system was written in Hadoop Mapreduce framework using the publicly 
                 available movie lens dataset. This would use a tweaked version of Jaccard coefficiency to find 
@@ -130,7 +130,7 @@ export class Projects extends Component {
               <div className="w3-title w3-right w3-large">PageRank</div>
               </div>
             <div className="w3-rest">
-              <div className="w3-xxlarge">Developer</div>
+              <div className="w3-xxlarge">Hadoop developer</div>
               <div className="w3-serif w3-large">
                 <i>PageRank is hadoop project which calculates the pageRank of hyperlinked wiki pages.
                 The algorithm runs untill it get to the saturation point and displays the page ranks of the links.

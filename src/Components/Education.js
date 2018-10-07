@@ -29,7 +29,7 @@ export class Education extends Component {
                     applications gave working experience on different technologies. Working on various projects 
                     gave me the confidence to understand the probelem and come up with different solutions to tackle it.
                     <br/><p className="w3-panel w3-sand w3-large w3-round w3-center w3-serif"><i>
-                    Good, better, best. Never let it rest. 'Till your good is better and you better is best.'</i>
+                    Good, better, best. Never let it rest. 'Till your good is better and your better is the best.'</i>
                     </p>
                 </div>
             </div>
