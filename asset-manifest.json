@@ -1,11 +1,26 @@
 {
-  "main.css": "static/css/main.c7d94197.css",
-  "main.css.map": "static/css/main.c7d94197.css.map",
-  "main.js": "static/js/main.1d8bcc6d.js",
-  "main.js.map": "static/js/main.1d8bcc6d.js.map",
-  "static\\media\\IBM.png": "static/media/IBM.f292445d.png",
-  "static\\media\\Kaushal-Latest.pdf": "static/media/Kaushal-Latest.091ae234.pdf",
-  "static\\media\\SRMUniversity.jpg": "static/media/SRMUniversity.6c075d76.jpg",
-  "static\\media\\logo.jpg": "static/media/logo.780e60e3.jpg",
-  "static\\media\\main.jpg": "static/media/main.47afc6f3.jpg"
+  "files": {
+    "main.css": "/ReactJS/static/css/main.c7fcf797.chunk.css",
+    "main.js": "/ReactJS/static/js/main.7e76793b.chunk.js",
+    "main.js.map": "/ReactJS/static/js/main.7e76793b.chunk.js.map",
+    "runtime-main.js": "/ReactJS/static/js/runtime-main.8b1abe7d.js",
+    "runtime-main.js.map": "/ReactJS/static/js/runtime-main.8b1abe7d.js.map",
+    "static/js/2.aee03cd7.chunk.js": "/ReactJS/static/js/2.aee03cd7.chunk.js",
+    "static/js/2.aee03cd7.chunk.js.map": "/ReactJS/static/js/2.aee03cd7.chunk.js.map",
+    "index.html": "/ReactJS/index.html",
+    "precache-manifest.1a82956d6868a37208b96ee6d374cdb0.js": "/ReactJS/precache-manifest.1a82956d6868a37208b96ee6d374cdb0.js",
+    "service-worker.js": "/ReactJS/service-worker.js",
+    "static/css/main.c7fcf797.chunk.css.map": "/ReactJS/static/css/main.c7fcf797.chunk.css.map",
+    "static/media/Kaushal-Latest.pdf": "/ReactJS/static/media/Kaushal-Latest.091ae234.pdf",
+    "static/media/Markdown.md": "/ReactJS/static/media/Markdown.746d697b.md",
+    "static/media/SRMUniversity.jpg": "/ReactJS/static/media/SRMUniversity.6c075d76.jpg",
+    "static/media/logo.jpg": "/ReactJS/static/media/logo.780e60e3.jpg",
+    "static/media/main.jpg": "/ReactJS/static/media/main.47afc6f3.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.8b1abe7d.js",
+    "static/js/2.aee03cd7.chunk.js",
+    "static/css/main.c7fcf797.chunk.css",
+    "static/js/main.7e76793b.chunk.js"
+  ]
 }
