@@ -6,6 +6,7 @@
 #### _**AccessModifiers**_
 ![Access modifiers and control](/JavaImages/AccessModifiers.png)
 
+
 #### _**Casting**_
 Casting is used to convert data from one data tye to another. [Basic data types](http://tutorials.jenkov.com/java/data-types.html) There are two types : 
 - _**Primite casting :**_ Considering primitive data types in java which represents numbers. The data types in order are 
