@@ -1,17 +1,18 @@
 import React, { Component } from 'react';
 import { Menu } from './Components/Menu';
 import { Header } from './Components/Header';
-import { Dashboard } from './Components/Dashboard';
 import { ComponentController } from './Components/ComponentController';
 import { Footer } from './Components/Footer';
 import './App.css';
 
+//The entry point to the application
 class App extends Component {
 
+  // For the main class control the state of the children
   constructor(props){
     super(props);
     this.state = {
-      clicked : "Dashboard"
+      clicked : "" // The default page to display
     }
   }
 
@@ -22,27 +23,22 @@ class App extends Component {
     })
   }
 
-  renderMenuItems(i){
-    const menuItems = new Array("Dashboard","Education","Experience","Certifications", "Projects");
-    return <Menu 
-              value={menuItems[i]}
-              onClick={() => this.handleOptionsClick(menuItems[i])} 
-            />
+  renderMenuItems(){
+    const menuItems = ["Dashboard","Education","Experience", "Projects", "Markdown"];
+    return (<>{menuItems.map((item) => <Menu value={item} key={item} onClick={() => this.handleOptionsClick(item)}/>)}</>)
   }
 
   render() {
     return (
       <div className="w3-light-grey">
-        <div className="Header"><Header /></div>
-        <div className="w3-row">
-          <div className="Menu w3-padding w3-quarter">
-            {this.renderMenuItems(0)}
-            {this.renderMenuItems(1)}
-            {this.renderMenuItems(2)}
-            {this.renderMenuItems(3)}
-            {this.renderMenuItems(4)}
+        <div className="Header">
+          <Header />
+        </div>
+        <div className="w3-container">
+          <div className="w3-quarter">
+            {this.renderMenuItems()}
           </div>
-          <div className="w3-twothird w3-padding">
+          <div className="w3-twothird">
             <ComponentController value={this.state.clicked} />
           </div>
         </div>
