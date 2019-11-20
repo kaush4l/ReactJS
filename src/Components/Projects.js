@@ -3,7 +3,7 @@ import React, { Component } from 'react';
 export class Projects extends Component {
   render() {
     return (
-        <div className="w3-display-container">
+        <div className="w3-padding w3-white">
         
           <div className="w3-row w3-card">
             <div className="w3-container w3-third w3-padding">

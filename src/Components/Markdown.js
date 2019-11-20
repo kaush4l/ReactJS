@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import ReactMarkdown from 'react-markdown';
-import mark from './Markdown.md';
+import mark from './MdFiles/Markdown.md';
 
 export class Markdown extends Component {
 
@@ -15,9 +15,10 @@ export class Markdown extends Component {
 
     render() {    
         return (
-            <div className="w3-display-container">
+            <div className="w3-display-container w3-padding">
                 <ReactMarkdown source={this.state.markdown} transformImageUri={uri =>
-                    `https://github.com/kaush4l/ReactJS/tree/master${uri}`}/>
+                    `github.com/kaush4l/ReactJS/tree/master${uri}`} />
+                    {/* renderers = {{ heading : P }}  /> */}
             </div>
         ); 
     }

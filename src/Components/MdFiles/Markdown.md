@@ -12,6 +12,7 @@ Casting is used to convert data from one data tye to another. [Basic data types]
 > byte < short < int < long < float < double 
 
 The two types of conversion are **Auto widening** and **Explicit Narrowing**
+
 1. **Auto widening :** When converting data from left to right in the above mentioned order.
 ```java
     byte b = 10;

@@ -24,7 +24,7 @@ class App extends Component {
   }
 
   renderMenuItems(){
-    const menuItems = ["Dashboard","Education","Experience", "Projects", "Markdown"];
+    const menuItems = ["Dashboard","Education","Experience", "Projects"];
     return (<>{menuItems.map((item) => <Menu value={item} key={item} onClick={() => this.handleOptionsClick(item)}/>)}</>)
   }
 

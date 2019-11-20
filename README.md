@@ -20,9 +20,8 @@ For any doubts [refer](https://medium.com/the-andela-way/how-to-deploy-your-reac
 
 ## TODO list
 ### Immediate
-* Redisign the website to be as simple as possible.
 * A Home page with a theme or a gif picture like [this](https://christopher.su/)
-* Update the experiences and projects
+* Update the experiences and projects(UI and content)
 ### Overkill
 * Try moving the content to some cloud services so that I can just update there and page loads the data
 * Try adding all the side projects so that they are easily accessible
