@@ -4,10 +4,10 @@ import './Education.css';
 export class Education extends Component {
   render() {
     return (
-      <div className="w3-display-container w3-padding w3-white">
+      <div className="w3-padding w3-white">
 
         <div className="w3-row w3-card">
-            <div className="w3-third w3-display-container">
+            <div className="w3-third">
             <img className="w3-hover-opacity KeyboardLogo" src={require('./uncc.jpg')} alt="UNCC" />
                 <div className="w3-title">
                     <div className="w3-display-bottom w3-xxlarge">
@@ -36,7 +36,7 @@ export class Education extends Component {
         </div>
 
         <div className="w3-row w3-card">
-            <div className="w3-third w3-display-container">
+            <div className="w3-third">
             <img className="w3-hover-opacity KeyboardLogo" src={require('./SRMUniversity.jpg')} alt="SRM" />
                 <div className="w3-title">
                     <div className="w3-display-bottom w3-xxlarge">

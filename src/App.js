@@ -30,19 +30,21 @@ class App extends Component {
 
   render() {
     return (
-      <div className="w3-light-grey">
-        <div className="Header">
+      <div className="Material-black w3-container">
+        <div className="Header w3-container">
           <Header />
         </div>
-        <div className="w3-container">
-          <div className="w3-quarter">
+        <div className="w3-container Content">
+          <div className="w3-quarter w3-hide-small">
             {this.renderMenuItems()}
           </div>
           <div className="w3-twothird">
             <ComponentController value={this.state.clicked} />
           </div>
         </div>
-        <Footer />
+        <div className="Footer Material-black w3-container">
+          <Footer />
+        </div>
       </div>
     );
   }

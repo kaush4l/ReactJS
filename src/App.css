@@ -1,14 +1,7 @@
-.App-header {
-  background-color: #222;
-  height: 70px;
-  padding: 20px;
+.Material-black {
+  background-color: #121212;
   color: white;
 }
-
-.Page{
-  background-color: gray;
-}
-
 .App-logo {
   height: 50px;
   float: right;
@@ -19,19 +12,26 @@
   to { transform: rotate(360deg); }
 }
 
-.clearFix{
+.clearFix {
   overflow: auto;
 }
 
-.Header{
+.Header {
+  height: 70px;
+  position: fixed;
+  left: 0;
+  top: 0;
   width: 100%;
 }
 
-.Menu{
-  width: 240px;
-  float: left;
+.Content {
+  margin-top: 70px;
+  margin-bottom: 110px;
 }
 
-.Filler{
+.Footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
   width: 100%;
 }

@@ -1,14 +1,40 @@
 import React, { Component } from 'react';
+import { Markdown } from './Markdown';
+import Oracle from './MdFiles/Experience/Oracle.md';
+import Cerner from './MdFiles/Experience/Cerner.md';
+import Esys from './MdFiles/Experience/ESystems.md';
+import Uniq from './MdFiles/Experience/Uniq.md';
 
 export class Experience extends Component {
+  constructor(props) {
+    super(props);
+    this.state = { 
+        oracle: null,
+        cerner: null,
+        esys: null,
+        uniq: null
+    }
+  }
+
+  componentDidMount() {
+    fetch(Oracle).then((response) => response.text()).then((text) => this.setState({oracle: text}))
+    fetch(Cerner).then((response) => response.text()).then((text) => this.setState({cerner: text}))
+    fetch(Esys).then((response) => response.text()).then((text) => this.setState({esys: text}))
+    fetch(Uniq).then((response) => response.text()).then((text) => this.setState({uniq: text}))
+  }
+
   render() {
     return (
-      <div className="w3-padding w3-white">
+      <div className="w3-padding">
+        <Markdown content={this.state.oracle} />
+        <Markdown content={this.state.cerner} />
+        <Markdown content={this.state.esys} />
+        <Markdown content={this.state.uniq} />
 
-        <div className="w3-row w3-card">
+        {/* <div className="w3-row w3-card">
           <div className="w3-container w3-third w3-padding">
             <div className="w3-title w3-display-bottom w3-xlarge">
-                August 2018 - Present
+                August 2018 - Feburary 2020
             </div>
             <div className="w3-title w3-right w3-large">Cerner</div>
             </div>
@@ -20,9 +46,9 @@ export class Experience extends Component {
               The work here has been very helping in developing my professional experience.</i>
             </div>
           </div>
-        </div>
+        </div> */}
 
-        <div className="w3-row w3-card">
+        {/* <div className="w3-row w3-card">
           <div className="w3-container w3-third w3-padding">
             <div className="w3-title w3-display-bottom w3-xlarge">
                 August 2017 - August 2018
@@ -42,9 +68,9 @@ export class Experience extends Component {
               </i>
             </div>
           </div>
-        </div>
+        </div> */}
 
-        <div className="w3-row w3-card">
+        {/* <div className="w3-row w3-card">
           <div className="w3-container w3-third w3-padding">
             <div className="w3-title w3-display-bottom w3-xlarge">
                 May 2015 - September 2015
@@ -61,7 +87,7 @@ export class Experience extends Component {
               </i>
             </div>
           </div>
-        </div>
+        </div> */}
 
       </div>
     );

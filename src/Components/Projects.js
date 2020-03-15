@@ -1,11 +1,58 @@
 import React, { Component } from 'react';
+import { Markdown } from './Markdown';
+import One from './MdFiles/Projects/1.md';
+import Two from './MdFiles/Projects/2.md';
+import Three from './MdFiles/Projects/3.md';
+import Four from './MdFiles/Projects/4.md';
+import Five from './MdFiles/Projects/5.md';
+import Six from './MdFiles/Projects/6.md';
+import Seven from './MdFiles/Projects/7.md';
+import Eight from './MdFiles/Projects/8.md';
+import Nine from './MdFiles/Projects/9.md';
 
 export class Projects extends Component {
+  constructor(props) {
+    super(props);
+    this.state = { 
+        one: null,
+        two: null,
+        three: null,
+        four: null,
+        five: null,
+        six: null,
+        seven: null,
+        eight: null,
+        nine: null
+    }
+  }
+
+  componentDidMount() {
+    fetch(One).then((response) => response.text()).then((text) => this.setState({one: text}))
+    fetch(Two).then((response) => response.text()).then((text) => this.setState({two: text}))
+    fetch(Three).then((response) => response.text()).then((text) => this.setState({three: text}))
+    fetch(Four).then((response) => response.text()).then((text) => this.setState({four: text}))
+    fetch(Five).then((response) => response.text()).then((text) => this.setState({five: text}))
+    fetch(Six).then((response) => response.text()).then((text) => this.setState({six: text}))
+    fetch(Seven).then((response) => response.text()).then((text) => this.setState({seven: text}))
+    fetch(Eight).then((response) => response.text()).then((text) => this.setState({eight: text}))
+    fetch(Nine).then((response) => response.text()).then((text) => this.setState({nine: text}))
+  }
+
   render() {
     return (
-        <div className="w3-padding w3-white">
+      <div className="w3-padding">
+
+        <Markdown content={this.state.nine} />
+        <Markdown content={this.state.eight} />
+        <Markdown content={this.state.seven} />
+        <Markdown content={this.state.six} />
+        <Markdown content={this.state.fice} />
+        <Markdown content={this.state.four} />
+        <Markdown content={this.state.three} />
+        <Markdown content={this.state.two} />
+        <Markdown content={this.state.one} />
         
-          <div className="w3-row w3-card">
+          {/* <div className="w3-row w3-card">
             <div className="w3-container w3-third w3-padding">
               <div className="w3-title w3-display-bottom w3-xlarge">
                   September 2018
@@ -120,9 +167,9 @@ export class Projects extends Component {
                 </i>
               </div>
             </div>
-          </div>
+          </div> */}
 
-          <div className="w3-row w3-card">
+          {/*<div className="w3-row w3-card">
             <div className="w3-container w3-third w3-padding">
               <div className="w3-title w3-display-bottom w3-xlarge">
                   September 2016
@@ -179,9 +226,9 @@ export class Projects extends Component {
                 </i>
               </div>
             </div>
-          </div>
+          </div> */}
 
-        </div>
+    </div>
     );
   }
 }

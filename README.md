@@ -20,9 +20,13 @@ For any doubts [refer](https://medium.com/the-andela-way/how-to-deploy-your-reac
 
 ## TODO list
 ### Immediate
-* A Home page with a theme or a gif picture like [this](https://christopher.su/)
+* DarkMode
+* A MarkDown page that renders the individual collection of block.
+* Add FileSystem read to read the newly added MD directly.
+* Add markdown any details as MarkDown file should render the details in the necessary page
 * Update the experiences and projects(UI and content)
 ### Overkill
-* Try moving the content to some cloud services so that I can just update there and page loads the data
+* Add styling to the MarkDown
 * Try adding all the side projects so that they are easily accessible
 * Make a generic theme and also try to host any material so that it can be shared
+* A Home page with a theme or a gif picture like [this](https://christopher.su/)
