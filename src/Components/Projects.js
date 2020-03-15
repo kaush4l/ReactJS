@@ -167,9 +167,9 @@ export class Projects extends Component {
                 </i>
               </div>
             </div>
-          </div> */}
+          </div>
 
-          {/*<div className="w3-row w3-card">
+          <div className="w3-row w3-card">
             <div className="w3-container w3-third w3-padding">
               <div className="w3-title w3-display-bottom w3-xlarge">
                   September 2016
