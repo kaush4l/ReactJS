@@ -46,7 +46,7 @@ export class Projects extends Component {
         <Markdown content={this.state.eight} />
         <Markdown content={this.state.seven} />
         <Markdown content={this.state.six} />
-        <Markdown content={this.state.fice} />
+        <Markdown content={this.state.five} />
         <Markdown content={this.state.four} />
         <Markdown content={this.state.three} />
         <Markdown content={this.state.two} />

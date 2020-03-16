@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
-import logo from './logo.jpg';
-import pdf from './Kaushal-Latest.pdf';
+import logo from './Images/HeaderPhoto.jpg';
+import pdf from './Files/Kaushal-Latest.pdf';
 
 export class Header extends Component {
 

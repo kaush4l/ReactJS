@@ -29,7 +29,7 @@ For any doubts [refer](https://medium.com/the-andela-way/how-to-deploy-your-reac
 * Add markdown any details as MarkDown file should render the details in the necessary page
 
 ### Immediate
-* Add FileSystem read to read the newly added MD directly(Life for each file render).
+* Add FileSystem read to read the newly added MD directly(Like for each file render).
 * Add styling to the MarkDown
 * Make a generic theme and also try to host any material so that it can be shared
 

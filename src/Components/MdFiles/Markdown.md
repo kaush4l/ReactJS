@@ -1,7 +1,17 @@
-# Company
+# Template 1
 
-## ** *Title* **
+| _*Title/Heading*_ | SubHeading/Qualification |
+| ------------- |:-------------:| 
+| `TimeLine` | Description |
 
-## TimeLine
+### _*Quote*_
 
+
+
+# Template 2
+
+# Heading
+## SubHeading
+### _*`Timeline`*_
 Description
+

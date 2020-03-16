@@ -46,9 +46,9 @@ export class Experience extends Component {
               The work here has been very helping in developing my professional experience.</i>
             </div>
           </div>
-        </div> */}
+        </div>
 
-        {/* <div className="w3-row w3-card">
+        <div className="w3-row w3-card">
           <div className="w3-container w3-third w3-padding">
             <div className="w3-title w3-display-bottom w3-xlarge">
                 August 2017 - August 2018
@@ -68,9 +68,9 @@ export class Experience extends Component {
               </i>
             </div>
           </div>
-        </div> */}
+        </div>
 
-        {/* <div className="w3-row w3-card">
+        <div className="w3-row w3-card">
           <div className="w3-container w3-third w3-padding">
             <div className="w3-title w3-display-bottom w3-xlarge">
                 May 2015 - September 2015

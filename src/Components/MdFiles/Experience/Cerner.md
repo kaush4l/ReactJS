@@ -1,3 +1,3 @@
 | _*Cerner Corporation*_ | Software Developer |
 | ------------- |:-------------:| 
-| `August 2018 - Feburary 2020` | Joined as a Software developer after going an intensive training on the latest technologies. And working with a big team and co-ordinating gave a better scope in team-work and co-ordination. The work here has been very helping in developing my professional experience.|
+| `August 2018 - Feburary 2020` | As Software developer in Cerner, I had to undergo an intensive training to get familiar with Cerner code process and also learn latest technologies and testing frameworks. And working with teams and co-ordinating with them gave me a better understanding in team-work and co-ordination. Having worked multiple projects, the learning curve was intensive and helped me keep up with the new technologies and working. |

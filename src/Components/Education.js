@@ -4,20 +4,20 @@ import './Education.css';
 export class Education extends Component {
   render() {
     return (
-      <div className="w3-padding w3-white">
+      <div className="w3-padding">
 
         <div className="w3-row w3-card">
             <div className="w3-third">
-            <img className="w3-hover-opacity KeyboardLogo" src={require('./uncc.jpg')} alt="UNCC" />
+            {/* <img className="w3-hover-opacity KeyboardLogo" src={require('./uncc.jpg')} alt="UNCC" /> */}
                 <div className="w3-title">
                     <div className="w3-display-bottom w3-xxlarge">
-                        2016-2017
+                        University of North Carolina at Charlotte
                     </div>
-                    <div className="w3-right">UNC Charlotte</div>
+                    <div className="w3-right">Jan 2016 - May 2017</div>
                 </div>
             </div>
             <div className="w3-twothird">
-                <div className="w3-xlarge w3-padding">
+                <div className="w3-xxlarge w3-padding">
                     Master's of Computer Science
                 </div>
                 <div className="w3-padding">
@@ -37,17 +37,17 @@ export class Education extends Component {
 
         <div className="w3-row w3-card">
             <div className="w3-third">
-            <img className="w3-hover-opacity KeyboardLogo" src={require('./SRMUniversity.jpg')} alt="SRM" />
+            {/* <img className="w3-hover-opacity KeyboardLogo" src={require('./SRMUniversity.jpg')} alt="SRM" /> */}
                 <div className="w3-title">
                     <div className="w3-display-bottom w3-xxlarge">
-                        2011-2015
+                        SRM University
                     </div>
-                    <div className="w3-right">SRM University</div>
+                    <div className="w3-right">August 2011 - May 2015</div>
                 </div>
             </div>
             <div className="w3-twothird">
-                <div className="w3-xlarge w3-padding">
-                    Bachelor's Degree in Information Technology
+                <div className="w3-xxlarge w3-padding">
+                    Bachelor's in Information Technology
                 </div>
                 <div className="w3-padding">
                     Learning has always been my interest. But this is the place that my interest turned 

@@ -3,7 +3,7 @@ import { Dashboard } from './Dashboard';
 import { Education } from './Education';
 import { Experience } from './Experience';
 import { Projects } from './Projects';
-import { Markdown } from './Markdown';
+import { TestMarkdown } from './TestMarkdown';
 
 export class ComponentController extends Component {
   render() {
@@ -16,7 +16,7 @@ export class ComponentController extends Component {
       case "Projects":
         return <Projects />;
       case "Markdown":
-        return <Markdown />
+        return <TestMarkdown />
       default:
         return <Dashboard />;
     }
