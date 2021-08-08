@@ -23,6 +23,8 @@ For any doubts [refer](https://medium.com/the-andela-way/how-to-deploy-your-reac
 [also](https://www.thinkful.com/learn/a-guide-to-using-github-pages/)
 
 ## TODO list
+* Add materialUI styling to react MD files.
+* Make the whole website theme dark and add light and dark modes
 
 ### Immediate
 * A Home page with a theme or a gif picture like [this](https://christopher.su/)

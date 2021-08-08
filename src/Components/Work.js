@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import './Education.css';
 
 export class Work extends Component {
   render() {

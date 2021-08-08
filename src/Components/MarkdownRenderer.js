@@ -1,10 +1,11 @@
-import React, { Component } from 'react';
-import ReactMarkdown from 'react-markdown';
+import React from 'react';
+import Markdown from 'markdown-to-jsx';
 
 const MarkdownRenderer = (props) => {
     return (
-        <ReactMarkdown children={props.content}>
-        </ReactMarkdown>
+        <Markdown>
+            {props.content}
+        </Markdown>
     )
 
 }            

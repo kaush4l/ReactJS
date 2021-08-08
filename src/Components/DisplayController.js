@@ -2,8 +2,8 @@ import React from 'react';
 import { ThemeProvider } from '@material-ui/core';
 import { Markdown } from './Markdown';
 import DashboardComponent from './DashboardComponent'
-import  EducationComponent  from './EducationComponent';
-import { ExperienceComponent } from './ExperienceComponent';
+import EducationComponent  from './EducationComponent';
+import ExperienceComponent from './ExperienceComponent';
 import { darkTheme } from './Themes'
 import ProjectsComponent from './ProjectsComponent';
 
