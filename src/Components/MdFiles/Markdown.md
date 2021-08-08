@@ -4,7 +4,7 @@
 ## **Basics**
 
 #### _**AccessModifiers**_
-![Access modifiers and control](/JavaImages/AccessModifiers.png)
+![Access modifiers and control](/src/Components/Images/JavaImages/AccessModifiers.png)
 
 #### _**Casting**_
 Casting is used to convert data from one data tye to another. [Basic data types](http://tutorials.jenkov.com/java/data-types.html) There are two types : 
@@ -186,7 +186,7 @@ Java execution divides the memory into two parts - Stack and heap. In order
     1. Static variable first
     2. SIB to initialize the variables.
 
-![Execution in memory](/JavaImages/StaticMemoryExecution.png)
+![Execution in memory](/src/Components/Images/JavaImages/StaticMemoryExecution.png)
 
 #### _**Static members**_
 When compiling, static members are the first once to load in the memory. Static Initialization Block (SIB) is used to initialize only static variables
@@ -222,7 +222,7 @@ These are used to initialize the state of the objects (instace variables or non-
 * If extended class then super() or this() is the first statement. (compiler class super() by default)
 * recursive constructor gives compile time error.
 
-Initialization: ![Compiler](/JavaImages/SuperAndThis.png)
+Initialization: ![Compiler](/src/Components/Images/JavaImages/SuperAndThis.png)
 
 ##### **Inheritance**
 Used to add functionalities to existing class. 'extends' keyword.
@@ -520,8 +520,8 @@ public class Java8Tester {
 
 ## **Exceptions**
 
-![ExceptionHierarchy](/JavaImages/ExceptionHierarchy.jpg)
+![ExceptionHierarchy](/src/Components/Images/JavaImages/ExceptionHierarchy.jpg)
 
 ## _**Collection**_
 
-![ExceptionHierarchy](/JavaImages/Collection-Framework-hierarchy.png)
+![ExceptionHierarchy](/src/Components/Images/JavaImages/Collection-Framework-hierarchy.png)

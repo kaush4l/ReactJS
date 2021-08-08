@@ -1,10 +1,27 @@
-import React, { Component } from 'react';
+import React from 'react';
 
-export class Projects extends Component {
-  render() {
+const ProjectsComponent = () => {
     return (
         <div className="w3-padding w3-white">
-        
+
+          <div className="w3-row w3-card">
+            <div className="w3-container w3-third w3-padding">
+              <div className="w3-title w3-display-bottom w3-xlarge">
+                  August 2021
+              </div>
+              <div className="w3-title w3-right w3-large">Resume Website Update</div>
+              </div>
+            <div className="w3-rest">
+              <div className="w3-xxlarge">Developer</div>
+              <div className="w3-serif w3-large">
+                <i>A website update of the exisiting resume website to use functional React with version 17 and material UI.
+                  State management and routes to be added and can be seen at kaushal.github.io<br />
+                  <b>Link to the project https://kaush4l.github.io/ReactJS/.</b>
+                </i>
+              </div>
+            </div>
+          </div>
+
           <div className="w3-row w3-card">
             <div className="w3-container w3-third w3-padding">
               <div className="w3-title w3-display-bottom w3-xlarge">
@@ -183,5 +200,6 @@ export class Projects extends Component {
 
         </div>
     );
-  }
 }
+
+export default ProjectsComponent;

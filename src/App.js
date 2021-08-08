@@ -1,51 +1,21 @@
-import React, { Component } from 'react';
-import { Menu } from './Components/Menu';
-import { Header } from './Components/Header';
-import { ComponentController } from './Components/ComponentController';
-import { Footer } from './Components/Footer';
-import './App.css';
-
-//The entry point to the application
-class App extends Component {
-
-  // For the main class control the state of the children
-  constructor(props){
-    super(props);
-    this.state = {
-      clicked : "" // The default page to display
-    }
-  }
+import React, { useState } from 'react';
+import { ThemeProvider } from '@material-ui/core';
+import DisplayController from './Components/DisplayController'
+import MenuComponent from './Components/MenuComponent';
+import { darkTheme } from './Components/Themes'
 
 
-  handleOptionsClick(i){
-    this.setState({
-      clicked: i
-    })
-  }
-
-  renderMenuItems(){
-    const menuItems = ["Dashboard","Education","Experience", "Projects"];
-    return (<>{menuItems.map((item) => <Menu value={item} key={item} onClick={() => this.handleOptionsClick(item)}/>)}</>)
-  }
-
-  render() {
-    return (
-      <div className="w3-light-grey">
-        <div className="Header">
-          <Header />
-        </div>
-        <div className="w3-container">
-          <div className="w3-quarter">
-            {this.renderMenuItems()}
-          </div>
-          <div className="w3-twothird">
-            <ComponentController value={this.state.clicked} />
-          </div>
-        </div>
-        <Footer />
-      </div>
-    );
-  }
+const App = (props) => {
+  const [selectedComponent, setSelectedComponent] = useState('Dashboard')
+  return (
+    <ThemeProvider theme={darkTheme}>
+        {/* Fix later to show name and phone on the AppBar */}
+        {/* <HeaderComponent />  */}
+        {/* Make it mini varient when it will collapse for mobile display */}
+        <MenuComponent clickFunction={(page) => setSelectedComponent(page)}/>
+        <DisplayController component={selectedComponent}/>
+    </ThemeProvider>
+  );
 }
 
 export default App;
