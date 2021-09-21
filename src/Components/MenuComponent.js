@@ -10,13 +10,6 @@ import resumePDF from './Kaushal-Latest.pdf';
 const MenuItems = ["Dashboard", "Education", "Experience", "Projects"];
 const MenuIcons = [<HomeIcon/>, <BookIcon/>, <WorkIcon/>, <HomeWorkIcon/>];
 
-// const map = {
-//     "Dashboard" : <HomeIcon />,
-//     "Education" : <BookIcon />,
-//     "Experience": <WorkIcon />,
-//     "Projects"  : <HomeWorkIcon />
-// }
-
 const MenuComponent = (props) => {
     return (
         <Drawer variant='permanent'>

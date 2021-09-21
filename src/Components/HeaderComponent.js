@@ -1,6 +1,6 @@
 import React from 'react';
 import { AppBar, Avatar, Toolbar } from '@material-ui/core';
-import avatar from './logo.jpg';
+import avatar from './Images/logo.jpg';
 import resumePDF from './Kaushal-Latest.pdf';
 
 const HeaderComponent = (props) => {

@@ -1,7 +1,7 @@
 import React from 'react';
 import Markdown from 'markdown-to-jsx';
 
-const MarkdownRenderer = (props) => {
+const MarkdownTester = (props) => {
     return (
         <Markdown>
             {props.content}
@@ -10,4 +10,4 @@ const MarkdownRenderer = (props) => {
 
 }            
         
-export default MarkdownRenderer;
+export default MarkdownTester;
